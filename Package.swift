@@ -8,7 +8,7 @@ let package = Package(
 		.library(name: "CwlPosixPreconditionTesting", targets: ["CwlPosixPreconditionTesting"])
 	],
 	dependencies: [
-		.package(url: "git@github.com:crushroom-inc/CwlCatchException.git", from: Version(2, 0, 0, prereleaseIdentifiers: ["-beta.1"]))
+		.package(url: "https://github.com/crushroom-inc/CwlCatchException.git", from: Version(2, 0, 0, prereleaseIdentifiers: ["-beta.1"]))
 	],
 	targets: [
 		.target(
